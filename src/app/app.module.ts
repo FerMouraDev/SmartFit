@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { LOCALE_ID, NgModule } from "@angular/core";
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from '../app/app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,7 +13,12 @@ import { HeaderComponent } from "./components/header/header.component";
         BrowserModule,
         AppRoutingModule
     ],
-    providers: [],
-    bootstrap: [AppComponent]
+    providers: [{
+        provide: LOCALE_ID,
+        useValue: 'pt-BR'
+    }],
+    bootstrap: [
+        AppComponent,
+        HeaderComponent]
 })
 export class AppModule {}

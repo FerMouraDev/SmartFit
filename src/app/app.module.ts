@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from '../app/app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from "./components/header/header.component";
+import { FormsComponent } from "./components/forms/forms.component";
 
 @NgModule({
     declarations: [
         AppComponent,
-        HeaderComponent
+        HeaderComponent,
+        FormsComponent
     ],
     imports: [
         BrowserModule,
@@ -18,7 +20,6 @@ import { HeaderComponent } from "./components/header/header.component";
         useValue: 'pt-BR'
     }],
     bootstrap: [
-        AppComponent,
-        HeaderComponent]
+        AppComponent]
 })
 export class AppModule {}

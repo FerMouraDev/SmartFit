@@ -4,18 +4,17 @@
   align-items: flex-start;
   justify-content: flex-start;
 
-  padding: 12px 8px;
+  padding: 18px 10px;
   border-radius: 8px;
 
   background-color: rgba(0,0,0,0.1);
-
   -webkit-box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
   -moz-box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
   box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
 
   gap: 8px;
 
-  width: 250px;
+  width: 370px;
   height: 400px;
 }
 
@@ -28,21 +27,21 @@
 .card span {
   font-weight: 700;
   font-size: 14px;
-  color: var(--red);
+  color: #dc0a17;
 }
 
 .card span.opened {
-  color: var(--green);
+  color: #2FC022;
 }
 
 .card h3 {
-  color: var(--dark-grey);
+  color: #333333;
   font-size: 24px;
   font-weight: bold;
 }
 
 .card p {
-  color: var(--light-grey);
+  color: #808080;
   font-size: 14px;
 }
 
@@ -57,16 +56,16 @@
   display: flex;
   flex-direction: column;
 
-  color: var(--dark-grey);
+  color: #333333;
   font-weight: 500;
   font-size: 12px;
 }
 
 .card li b {
   font-size: 16px;
-  color: var(--dark-grey);
+  color: #333333;
 }
 
 .card img {
-  height: 50px;
+  height: 40px;
 }

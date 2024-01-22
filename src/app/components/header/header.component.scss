@@ -28,10 +28,10 @@ header .text-container {
 }
 header .text-container h1 {
     font-size: 34px;
-    color: var(--dark-grey);
+    color: #333333;
 }
 header .text-container p {
-    color: var(--light-grey);
+    color: #808080;
 }
 header .text-container .heading {
     display: flex;
@@ -44,5 +44,5 @@ header .text-container .heading {
 header .text-container .heading .heading-border {
     height: 12px;
     width: 40%;
-    background-color: var(--dark-grey);
+    background-color: #333333;
 }

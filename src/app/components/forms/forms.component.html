@@ -5,24 +5,24 @@
     </div>
     <h3>Qual horário você quer treinar?</h3>
     <div class="radio-wrapper">
-      <input type="radio" name="hour" value="morning" formControlName="hour"/>
+      <input class="componente" type="radio" name="hour" value="morning" formControlName="hour"/>
       <label for="morning">Manhã</label>
       <span>06:00 ás 12h</span>
     </div>
     <div class="radio-wrapper">
-      <input type="radio" name="hour" value="afternoon" formControlName="hour"/>
+      <input class="componente" type="radio" name="hour" value="afternoon" formControlName="hour"/>
       <label for="afternoon">Tarde</label>
       <span>12:01 ás 18h</span>
     </div>
     <div class="radio-wrapper">
-      <input type="radio" name="hour" value="night" formControlName="hour"/>
+      <input class="componente" type="radio" name="hour" value="night" formControlName="hour"/>
       <label for="night">Noite</label>
       <span>18:01 ás 23h</span>
     </div>
     <div class="checkbox-wrapper">
       <div class="checkbox">
-        <input type="checkbox" name="showClosed" formControlName="showClosed"/>
-        <label for="showClosed">Exibir unidades fechadas</label>
+        <input class="componente" type="checkbox" name="showClosed" formControlName="showClosed"/>
+        <label class="texto" for="showClosed">Exibir unidades fechadas</label>
       </div>
       <span>Resultados encontrados: {{ filteredResults.length }}</span>
     </div>
